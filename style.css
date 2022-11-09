@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Outfit:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700&family=Work+Sans:ital,wght@0,300;0,600;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 92%;
+    margin: 16px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, .footer-logo{
+    width: 48px;
+    height: 48px;
+}
+
+.header-button, .amy-button, .black-container-button, .footer-button{
+    width: 51%;
+    padding: 8px 27px;
+    background: #030303;
+    border-radius: 28px;
+    border: none;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFF7F0;
+}
+
+.header-titles{
+    width: 92%;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.main-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #030303;
+}
+
+.second-title{
+    width: 81%;
+    margin: 16px auto 0px auto;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7A746E;
+}
+
+.pictures{
+    width: 92%;
+    margin: auto;
+}
+.graphic-design-div{
+    margin: 32px auto 0px auto;
+    height: 364px;
+    background: #755CDE;
+    border-radius: 8px;
+}
+
+.graphic-design-img, .illustration-img, .motion-graphics-img{
+    margin-left: 191px;
+    margin-top: 24px;
+}
+
+.image-text{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 23px;
+
+    color: #FFFFFF;
+}
+
+.graphic-text{
+    margin: 94px 0px 0px 24px;
+}
+
+.ui-ux-apps-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.main-ui-ux{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+
+.ui-ux{
+    width: 159px;
+    height: 182px;
+    background: #F6A560;
+    border-radius: 8px;
+}
+
+.ui-ux-img, .apps-img{
+    margin: 24px 0px 0px 71px;
+}
+
+.apps{
+    width: 159px;
+    height: 182px;
+    background: #F39E9E;
+    border-radius: 8px;
+}
+
+.ui-ux-text, .apps-text{
+    margin: 40px 0px 0px 23px;
+}
+
+.illustrations-div{
+    height: 158px;
+    background: #EB7565;
+    border-radius: 8px;
+}
+
+.illustration-text{
+    margin: 16px 0px 0px 24px;
+}
+
+.photography-div{
+    margin-top: 24px;
+    height: 158px;
+    background: #61C4B7;
+    border-radius: 8px;
+}
+
+.photography-img{
+    margin: 24px 0px 0px 159px;
+}
+
+.photography-text, .mothion-graphic-text{
+    margin: 24px 0px 0px 24px;
+}
+
+.motion-graphics-div{
+    margin-top: 24px;
+    height: 158px;
+    background: #552049;
+    border-radius: 8px;
+}
+
+.amy-picture-text{
+    width: 92%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.amy-image{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.amy-img{
+    width: 100%;
+}
+
+.amy-texts{
+    margin-top: 40px;
+}
+
+.amy-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+}
+
+.amy-second-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7A746E;
+    margin-top: 24px;
+}
+
+.amy-button-div{
+    width: 51%;
+    margin: 24px auto 0px auto;
+}
+
+.amy-button, .black-container-button{
+    background: #EB7565;
+}
+
+.my-work{
+    width: 30%;
+    margin: 100px auto 0px auto;
+}
+
+.my-work-text{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #030303;
+}
+
+.slider-images{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.slide{
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.slider-buttons{
+    display: flex;
+    gap: 16px;
+    width: 38%;
+    margin: 32px auto 0px auto;
+}
+
+.left-button{
+    width: 64px;
+    height: 64px;
+    background-color: #030303;
+    border: none;
+    border-radius: 50%;
+}
+
+.right-button{
+    width: 64px;
+    height: 64px;
+    background-color: #030303;
+    border: none;
+    border-radius: 50%;
+}
+
+.left-arrow, .right-arrow{
+    width: 15px;
+    height: 15px;
+}
+
+.black-container{
+    width: 92%;
+    margin: auto;
+    height: 358px;
+    margin-top: 100px;
+    background: #030303;
+    border-radius: 10px;
+}
+
+.black-container-title{
+    width: 70%;
+    margin: auto;
+    padding-top: 49px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFF7F0;
+}
+
+.black-container-text{
+    width: 86%;
+    margin: 24px auto 0px auto;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+}
+
+.black-container-butt{
+    width: 51%;
+    margin: 24px auto 0px auto;
+}
+.black-container-button{
+    width: 100%;
+}
+
+.footer{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.disable {
+    opacity: .5;
+    background-color: #030303;
+}
+
+/*Hover Effects */
+.header-button:hover, .footer-button:hover{
+    background: #755CDE;
+    cursor: pointer;
+}
+
+.amy-button:hover, .black-container-button:hover{
+    background: #F6A560;
+    cursor: pointer;
+}
+
+.left-button:hover, .right-button:hover{
+    background: #755CDE;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+    .header, .header-titles, .pictures, .black-container, .footer{
+        width: 90%;
+    }
+    .logo, .footer-logo{
+        width: 64px;
+        height: 64px;
+    }
+    .header{
+        margin-top: 38px;
+    }
+    .header-button, .amy-button, .footer-button{
+        width: 33%;
+        font-size: 16px;
+        padding: 14px 45px;
+    }
+    .main-title{
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .second-title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .pictures{
+        display: grid;
+        grid-template-columns: 333px auto;
+        gap: 24px;
+        margin-top: 64px;
+    }
+    .graphic-design-div{
+        width: 333px;
+    }
+    .ui-ux, .apps{
+        width: 155px;
+    }
+    .illustrations-div, .graphic-design-div, .photography-div, .motion-graphics-div{
+        width: 333px;
+    }
+    .graphic-design-div, .ui-ux-apps-div{
+        margin-top: 0px;
+    }
+    .main-photography-motion-graphic{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 24px;
+    }
+    .amy-picture-text{
+        display: flex;
+        margin-top: 120px;
+        gap: 69px;
+    }
+    .amy-image{
+        margin: 0px;
+    }
+    .amy-img{
+        position: absolute;
+        left: -50px;
+        width: 364px;
+        height: 364px;
+    }
+    .amy-texts{
+        margin-top: 0px;
+        width: 48%;
+    }
+    .amy-title{
+        text-align: left;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .amy-second-title{
+        text-align: left;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .amy-button-div{
+        width: 68%;
+        margin: 24px 0px 0px 0px;
+    }
+    .my-work-text{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .slider-images{
+        gap: 30px;
+        margin-top: 56px;
+    }
+    .slide{
+        width: 540px;
+        height: 360px;
+    }
+    .slider-buttons{
+        width: 19%;
+        margin-top: 56px;
+    }
+    .black-container-title{
+        font-size: 32px;
+        line-height: 40px;
+        padding-top: 56px;
+    }
+    .black-container-text{
+        width: 80%;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 26px;
+    }
+    .black-container-butt{
+        width: 33%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .black-container-button{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 14px 45px;
+    }
+    .footer{
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 1440px){
+    .header, .header-titles, .pictures, .amy-picture-text, .black-container, .footer{
+        width: 77%;
+    }
+    .header-titles{
+        margin-top: 70px;
+    }
+    .header-button{
+        width: 21%;
+    }
+    .main-title{
+        font-size: 56px;
+        line-height: 71px;
+    }
+    .second-title{
+        width: 66%;
+    }
+    .pictures{
+        gap: 24px;
+        grid-template-columns: auto auto auto;
+    }
+    .main-photography-motion-graphic{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .photography-div{
+        margin-top: 0px;
+        height: 182px;
+    }
+    .motion-graphics-div{
+        margin-top: 0px;
+    }
+    .amy-picture-text{
+        align-items: center;
+        gap: 125px;
+    }
+    .amy-image{
+        width: 445px;
+        height: 445px;
+    }
+    .amy-img{
+        width: 445px;
+        height: 445px;
+        position: static;
+    }
+    .amy-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slider-buttons{
+        width: 10%;
+    }
+    .black-container{
+        display: flex;
+        align-items: center;
+        gap: 182px;
+    }
+    .black-container-texts{
+        width: 49%;
+        margin-left: 65px;
+    }
+    .black-container-title, .black-container-text{
+        padding-top: 0px;
+        text-align: left;
+        margin: 0px;
+    }
+    .black-container-text{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .black-container-butt, .footer-button{
+        width: 21%;
+        font-size: 16px;
+        margin: 0px;
+    }
+    .black-container-button{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 14px 45px;
+    }
+    .footer{
+        margin-top: 60px;
+        padding-bottom: 68px;
+    }
+}
